@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "map_api",
-      "script": "",
+      "script": "./config.json",
       "instances": 4,
       "exec_mode": "fork",    // 一定要是fork
       "interpreter": "./go_project",   // windows下加.exe
