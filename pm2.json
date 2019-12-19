@@ -3,7 +3,7 @@
     {
       "name": "map_api",
       "script": "./config.json",
-      "instances": 4,
+      "instances": 1,
       "exec_mode": "fork",    // 一定要是fork
       "interpreter": "./bin/api",   // windows下加.exe
       "env": {              // 环境变量
