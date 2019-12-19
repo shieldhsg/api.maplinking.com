@@ -8,7 +8,7 @@
       "interpreter": "./bin/api",   // windows下加.exe
       "env": {              // 环境变量
         "PORT": "7777",
-        "YZ_MODE": "pro"
+        "MODE": "pro"
       },
       "watch": ["./bin/api"]
     }

@@ -20,5 +20,5 @@ func main (){
 	})
 	//各种http方式测试
 	api.HttpTest(r.Group("/test"))
-	r.Run()
+	r.Run(":7777")
 }
