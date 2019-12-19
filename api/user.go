@@ -8,5 +8,4 @@ package api
 
 type Users struct {
 	Id int `json:"id"`
-
 }
